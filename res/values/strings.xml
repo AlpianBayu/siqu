@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Quiz</string>
+    
+    <!-- judul soal -->
+    <string name="soal2">Simple Quiz - Soal II</string>
+    <string name="soal3">Simple Quiz - Soal III</string>
+    <string name="soal4">Simple Quiz - Soal IV</string>
+    <string name="soal5">Simple Quiz - Soal V</string>
+    
+    <!-- soal 1 -->
+    <string name="soal_soal1">Dari rangkaian tiga angka dibawah ini, angka manakah yang jika ditambahkan dan dikalikan akan berjumlah sama?</string>
+    <string name="opsi_soal1_1">1, 2 dan 3</string>
+    <string name="opsi_soal1_2">2, 3 dan 4</string>
+    <string name="opsi_soal1_3">3, 4 dan 5</string>
+    <string name="opsi_soal1_4">4, 5 dan 6</string>
+    
+    
+    <!-- soal 2 -->
+    <string name="soal_soal2">Jika ada dua orang kakak beradik jumlah umurnya 21 tahun dan selisih umurnya 2 tahun, berapakah umur mereka?</string>
+    <string name="opsi_soal2_1">10 tahun 3 bulan dan 8 tahun 9 bulan.</string>
+    <string name="opsi_soal2_2">11 tahun 4 bulan dan 9 tahun 7 bulan.</string>
+    <string name="opsi_soal2_3">10 tahun 5 bulan dan 8 tahun 5 bulan.</string>
+    <string name="opsi_soal2_4">11 tahun 6 bulan dan 9 tahun 6 bulan.</string>
+    
+    <!-- soal 3 -->
+    <string name="soal_soal3">Sebuah keluarga mempunyai 3 anak, masing-masing punya 1 kakak, berapakah jumlah anak dalam keluarga tersebut?</string>
+    <string name="opsi_soal3_1">4 anak.</string>
+    <string name="opsi_soal3_2">5 anak.</string>
+    <string name="opsi_soal3_3">6 anak.</string>
+    <string name="opsi_soal3_4">7 anak.</string>
+    
+    <!-- soal 4 -->
+    <string name="soal_soal4" formatted="false">Bandingkan antara 34% dari 66 dan 66% dari 34, di antara opsi di bawah ini manakah yang paling tepat?</string>
+    <string name="opsi_soal4_1" formatted="false">34% dari 66 &lt; 66% dari 34</string>
+    <string name="opsi_soal4_2" formatted="false">34% dari 66 > 66% dari 34</string>
+    <string name="opsi_soal4_3" formatted="false">34% dari 66 = 66% dari 34</string>
+    <string name="opsi_soal4_4" formatted="false">34% dari 66 != 66% dari 34</string>
+    
+    <!-- soal 5 -->
+    <string name="soal_soal5">Jika untuk merebus 1 butir telur memerlukan waktu 10 menit, berapa waktu untuk merebus 10 butir telur?</string>
+    <string name="opsi_soal5_1">10 menit, direbus bersamaan.</string>
+    <string name="opsi_soal5_2">50 menit, direbus bersamaan.</string>
+    <string name="opsi_soal5_3">75 menit, direbus bersamaan.</string>
+    <string name="opsi_soal5_4">100 menit, direbus bersamaan.</string>
+    
+    <!-- teks tombol -->
+    <string name="jawab">Jawab</string>
+</resources>

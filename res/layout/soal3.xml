@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    style="@style/Heru"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="top|left"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Soal3" >
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+		    <TextView
+		        android:id="@+id/soal"
+		        style="@style/Heru.Center"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/soal_soal3"
+		        android:textAppearance="@style/Heru.Center" />
+		
+		    <RadioGroup
+		        android:id="@+id/opsi"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:clickable="true" >
+		
+		        <RadioButton
+		            android:id="@+id/opsi1"
+		            style="@style/Heru.Radio"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:checked="false"
+		            android:text="@string/opsi_soal3_1" />
+		
+		        <RadioButton
+		            android:id="@+id/opsi2"
+		            style="@style/Heru.Radio"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/opsi_soal3_2" />
+		
+		        <RadioButton
+		            android:id="@+id/opsi3"
+		            style="@style/Heru.Radio"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/opsi_soal3_3" />
+		        
+		        <RadioButton
+		            android:id="@+id/opsi4"
+		            style="@style/Heru.Radio"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/opsi_soal3_4" />
+		    </RadioGroup>
+		
+		    <Button
+		        android:id="@+id/jawab"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical|center_horizontal"
+		        android:text="@string/jawab"
+		        android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView> 
+</LinearLayout>
